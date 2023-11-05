@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>WT Lab-3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <center> <h2> Hostel Registration Form </h2> </center>        
+        <form id="registrationform">
+            <label for="name"> Enter your Name: </label>
+            <input type="text" id="name" required> </input> <br> <br>
+
+            <label for="class"> Class: </label> <br> 
+            <input type="radio" id="IoT" value="B.Tech IoT" name="class" > </input> 
+            <label for="IoT"> B.Tech IoT </label> <br>
+
+            <input type="radio" id="Aids" value="B.Tech AI&DS" name="class"> </input>
+            <label for="Aids"> B.Tech AI&DS </label> <br>
+
+            <input type="radio" id="cyber" value="B.Tech CyberSecurity" name="class"> </input>
+            <label for="cyber"> B.Tech CyberSecurity </label> <br>
+
+            <input type="radio" id="bcom" value="B.Com" name="class"> </input>
+            <label for="bcom"> B.Com </label> <br> <br> 
+
+            <label for="year"> Year: </label> <br>
+            <input type="radio" id="1st" name="year"> </input> 
+            <label for="1st"> 1st Year </label> <br>
+
+            <input type="radio" id="2nd" name="year"> </input> 
+            <label for="2nd"> 2nd Year </label> <br>
+
+            <input type="radio" id="3rd" name="year"> </input> 
+            <label for="3rd"> 3rd Year </label> <br> <br>
+
+            <label for="room"> Choose your room type: </label>
+            <select name="room" id="room">
+                <option>Shared Room </option>
+                <option> AC Shared Room </option>
+                <option> Single Room Not Attached Washroom </option>
+                <option> Single Room Attached Washroom </option>
+                <option> AC Single Room Attached Washroom </option>
+            </select> <br> <br>
+
+            <input type="submit" id="submit"> </input>
+            <script src="script.js"> </script>           
+        </form>
+    </body>
+</html>
